@@ -2,3 +2,9 @@
 **/.DS_Store
 .env
 **/.env
+
+# Python virtual environments (do not commit)
+venv/
+.venv/
+**/venv/
+**/.venv/
