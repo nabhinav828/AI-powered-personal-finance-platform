@@ -48,6 +48,7 @@ GOOGLE_API_KEY="your_google_api_key"
 ```
 
 Notes:
+
 - The DB connection is loaded in `smart-finance-monorepo/shared/database/database.py` via `python-dotenv`.
 - If `DATABASE_URL` is missing, the backend will error at startup.
 
@@ -158,17 +159,3 @@ Returns:
   - Confirm the AI service is running on port `8001`.
 
 ---
-
-## Dev notes / cleanup (recommended)
-
-This repo currently includes a committed `smart-finance-monorepo/venv/` directory. In most projects you should:
-
-- add `venv/`, `.venv/` to `.gitignore`
-- remove the committed virtualenv from git history
-
----
-
-## License
-
-Add a license if you plan to open-source this project.
-
